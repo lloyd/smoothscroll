@@ -6,8 +6,8 @@ bower_components
 npm_debug.log
 npm-debug.log
 
-# ignore dist folder
-dist
+# Don't ignore dist folder, this is a forked package
+# dist
 
 # OS X
 .DS_Store
