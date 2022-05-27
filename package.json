@@ -39,7 +39,7 @@
     "listdiff": "prettier --list-different {src,test}/**/*.js",
     "format": "prettier --write {src,test}/**/*.js",
     "prepublish": "npm run minify",
-    "postinstall": "npm install && npm run build"
+    "postinstall": "npm run build"
   },
   "lint-staged": {
     "linters": {
