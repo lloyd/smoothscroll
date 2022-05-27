@@ -18,7 +18,6 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint": "^4.7.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
     "lodash.clonedeep": "^4.5.0",
@@ -31,9 +30,7 @@
     "dist"
   ],
   "scripts": {
-    "lint": "eslint {src,test}/**/*.js",
     "test": "ava test/smoothscroll.test.js --verbose",
-    "posttest": "yarn lint",
     "precommit": "lint-staged",
     "prebuild": "npm test",
     "build": "rollup -c rollup.config.js",
@@ -54,6 +51,7 @@
   "prettier": {
     "singleQuote": true
   },
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamdustan/smoothscroll.git"
